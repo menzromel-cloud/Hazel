@@ -13,32 +13,45 @@ body {
 }
 
 /* HEADER */
-.header h1 {
-  color: white;
-  font-size: 3.7rem;
-  font-family: "Times New Roman", serif;
-  font-style: italic;
-  font-weight: bold;
-  letter-spacing: 4px;
+.header {
+  background: #0b1f4d;
+  height: 230px;
+  position: relative;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
 }
 
 /* LOGO */
 .logo {
   position: absolute;
-  top: 5px;
+  top: 8px;
   left: 20px;
+
   width: 2in;
   height: 2in;
+
   object-fit: contain;
 }
 
 /* TITLE */
 .header h1 {
   color: white;
-  font-size: 3.5rem;
-  font-family: 'Pacifico', cursive;
-  letter-spacing: 3px;
+
+  font-size: 4rem;
+
+  font-family: "Times New Roman", serif;
+
+  font-style: italic;
+
+  font-weight: bold;
+
+  letter-spacing: 4px;
 }
+
 
 /* BODY SECTION */
 .body-section {
